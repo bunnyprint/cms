@@ -70,12 +70,12 @@ class OrderController extends Controller
         // dd($orderquantity_id);
 
         $dimension = [
-            'width' => 310,
-            'height' => 460
+            'width' => 317,
+            'height' => 470
         ];
         $this->validate(request(), [
-            'width' => 'lte:310',
-            'height' => 'lte:460'
+            'width' => 'lte:317',
+            'height' => 'lte:470'
             // 305
             // 455
         ]);
